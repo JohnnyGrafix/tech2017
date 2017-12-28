@@ -14,7 +14,7 @@ h3 {
 	flex-wrap: wrap;
 	width: 100%;
 	padding: 0px;
-	max-width: 1200px;
+	max-width: 1400px;
 }
 .main {
    position: relative;
@@ -216,3 +216,41 @@ h3 {
 #p8text5 {
 	top: 40%;
 }
+
+@media only screen and (min-width: 737px) {
+	#p2text1, #forward1, #back2, #p4text1, #back3, #forward3, #home4, #back4, #p6text1, #back5, #forward5, #home6, #back6, #p8text1, #back7, #back7, #forward7, #home8, #back8 {
+		display: none;
+	}
+	.main {
+		width: 45%;
+		max-width: 320px;
+	}
+	
+}
+
+@media only screen and (min-width: 990px) {
+	
+	.buttonDiv, #p3text1, #p5text1, #p7text1 {
+		display: none;
+	}
+	#forward3 {
+		display: block;
+	}
+	.main {
+		width: 45%;
+		max-width: 320px;
+		margin-bottom: -100px;
+	}
+	
+}
+
+@media only screen and (min-width: 1100px) {
+	
+		.main {
+		width: 23%;
+		max-width: 300px;
+		margin-bottom: -100px;
+	}
+	
+}
+
